@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #0652dd;
+    --secondary-color: #ea2027;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+    --purple: rgb(156, 78, 235)
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 1rem;
+}
+
+a:hover {
+    color: var(--purple);
+}
+
+/* Smooth scroll effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+}
+
+body {
+    font-family: "Roboto", sans-serf;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.red {
+    background-color: var(--secondary-color);
+    margin-right: 1.5rem;
+}
+
+.red:hover {
+    background-color: #f1262d;
+    color: #fff;
+}
+
+.blue {
+    background-color: var(--primary-color);
+}
+
+.blue:hover {
+    background-color: #095cf7;
+    color: #fff;
+}
+
+

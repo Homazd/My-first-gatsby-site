@@ -1,0 +1,31 @@
+.fist {
+    color: var(--secondary-color);
+}
+
+.jab {
+    color: var(--primary-color);
+}
+
+.tv {
+    color: var(--secondary-color);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem {
+    margin-left: 3px;
+    display: flex;
+}
+
+.navLink {
+    font-weight: var(--bold-font);
+}

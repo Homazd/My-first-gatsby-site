@@ -1,11 +1,11 @@
 import * as React from "react";
 import {Link} from 'gatsby'
-import {container, heading, navLinkItem, navLinks, navLinkText} from './Layout.module.css'
+import {container, heading, navLinkItem, navLinks, navLinkText, nav} from './Layout.module.css'
 
 export const Layout = ({pageTitle, children}) => {
     return (
         <div className={container}>
-            <nav>
+            <nav className={nav}>
                 <ul className={navLinks}>
                     <li className={navLinkItem}>
                         <Link to="/" className={navLinkText}>Home</Link></li>
